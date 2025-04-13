@@ -40,7 +40,7 @@ async fn main(req: Request, env: Env, _: Context) -> Result<Response> {
         .on_async("/sub", sub)
         .on_async("/link", link)  // Changed to on_async
         .on_async("/:proxyip", tunnel)
-        .on_async("/Inconigto-Mode/:proxyip", tunnel)
+        .on_async("/:proxyip", tunnel)
         .run(req, env)
         .await
 }
