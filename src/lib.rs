@@ -25,6 +25,7 @@ async fn main(req: Request, env: Env, _: Context) -> Result<Response> {
     let main_page_url = env.var("MAIN_PAGE_URL").map(|x|x.to_string()).unwrap();
     let sub_page_url = env.var("SUB_PAGE_URL").map(|x|x.to_string()).unwrap();
     let link_page_url = env.var("LINK_PAGE_URL").map(|x|x.to_string()).unwrap();
+    let vmess_page_url = env.var("VMESS_PAGE_URL").map(|x|x.to_string()).unwrap();
     let config = Config { 
         uuid, 
         host: host.clone(), 
@@ -38,7 +39,8 @@ async fn main(req: Request, env: Env, _: Context) -> Result<Response> {
     Router::with_data(config)
         .on_async("/", fe)
         .on_async("/sub", sub)
-        .on_async("/link", link)  // Changed to on_async
+        .on_async("/link", link)
+        .on_async("/vmess", vmess)  // Changed to on_async
         .on_async("/:proxyip", tunnel)
         .run(req, env)
         .await
