@@ -33,7 +33,8 @@ async fn main(req: Request, env: Env, _: Context) -> Result<Response> {
         proxy_port: 443, 
         main_page_url, 
         sub_page_url,
-        link_page_url
+        link_page_url,
+        vmess_page_url
     };
 
     Router::with_data(config)
