@@ -10,5 +10,6 @@ pub struct Config {
     pub sub_page_url: String,
     pub link_page_url: String,
     pub vmess_page_url: String,
+    pub vless_page_url: String,
     
 }
