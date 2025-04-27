@@ -1977,7 +1977,7 @@ async function selectProxy(index) {
     
     // Update form fields
     const baseAccountName = `${selectedProxy.country} - ${selectedProxy.provider}`;
-    const path = `/${selectedProxy.ip}-${selectedProxy.port}`;
+    const path = `/gratis/${selectedProxy.ip}-${selectedProxy.port}`;
 
     // Set the path values
     document.getElementById('vmess-path').value = path;
