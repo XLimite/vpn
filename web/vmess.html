@@ -1155,10 +1155,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Populate server domain dropdowns
     const serverDomainSelects = [
-        document.getElementById('vmess-server-domain'),
-        document.getElementById('vless-server-domain'),
-        document.getElementById('trojan-server-domain'),
-        document.getElementById('ss-server-domain')
+        document.getElementById('vmess-server-domain')
     ];
 
     serverDomainSelects.forEach(select => {
@@ -1183,32 +1180,20 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Form submissions
     const forms = [
-        document.getElementById('vmess-account-form'),
-        document.getElementById('vless-account-form'),
-        document.getElementById('trojan-account-form'),
-        document.getElementById('ss-account-form')
+        document.getElementById('vmess-account-form')
     ];
     
     // Custom Bug dan Wildcard functionality
     const bugInputs = [
-        document.getElementById('vmess-bug'),
-        document.getElementById('vless-bug'),
-        document.getElementById('trojan-bug'),
-        document.getElementById('ss-bug')
+        document.getElementById('vmess-bug')
     ];
 
     const wildcardContainers = [
-        document.getElementById('vmess-wildcard-container'),
-        document.getElementById('vless-wildcard-container'),
-        document.getElementById('trojan-wildcard-container'),
-        document.getElementById('ss-wildcard-container')
+        document.getElementById('vmess-wildcard-container')
     ];
 
     const wildcardCheckboxes = [
-        document.getElementById('vmess-wildcard'),
-        document.getElementById('vless-wildcard'),
-        document.getElementById('trojan-wildcard'),
-        document.getElementById('ss-wildcard')
+        document.getElementById('vmess-wildcard')
     ];
 
     // Add event listeners to bug inputs
