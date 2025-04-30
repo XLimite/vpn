@@ -5,13 +5,13 @@ minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "vpn.kingsvless.biz.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.vpn.kingsvless.biz.id", custom_domain = true },
-  { pattern = "quiz.int.vidio.com.vpn.kingsvless.biz.id", custom_domain = true },
-  { pattern = "graph.instagram.com.vpn.kingsvless.biz.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.vpn.kingsvless.biz.id", custom_domain = true },
-  { pattern = "support.zoom.us.vpn.kingsvless.biz.id", custom_domain = true },  
-  { pattern = "cache.netflix.com.vpn.kingsvless.biz.id", custom_domain = true },
+  { pattern = "kingsvless.biz.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.kingsvless.biz.id", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.kingsvless.biz.id", custom_domain = true },
+  { pattern = "graph.instagram.com.kingsvless.biz.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.kingsvless.biz.id", custom_domain = true },
+  { pattern = "support.zoom.us.kingsvless.biz.id", custom_domain = true },  
+  { pattern = "cache.netflix.com.kingsvless.biz.id", custom_domain = true },
 ]
 
 [[kv_namespaces]]
