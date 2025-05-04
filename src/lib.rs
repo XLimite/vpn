@@ -48,7 +48,7 @@ async fn main(req: Request, env: Env, _: Context) -> Result<Response> {
         .on_async("/converter", converter)
         .on_async("/vmess", vmess)
         .on_async("/vless", vless)  // Changed to on_async
-        .on_async("/gratis/:proxyip", tunnel)
+        .on_async("/Club-Gratis/:proxyip", tunnel)
         .run(req, env)
         .await
 }
