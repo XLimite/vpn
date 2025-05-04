@@ -24,7 +24,7 @@ command = "cargo install -q worker-build && worker-build --release"
 build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
-UUID = "20800721-d3fd-4c1f-81fc-a786f10b2f64"
+UUID = "cccccccc-bbbb-4aaa-dddd-eeeeeeeeeeee"
 MAIN_PAGE_URL = "https://raw.githubusercontent.com/XLimite/vpn/refs/heads/master/web/index.html"
 SUB_PAGE_URL = "https://raw.githubusercontent.com/XLimite/vpn/refs/heads/master/web/sub.html"
 LINK_PAGE_URL = "https://raw.githubusercontent.com/XLimite/vpn/refs/heads/master/web/link.html"
