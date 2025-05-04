@@ -1405,7 +1405,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Get form data
             const formData = new FormData(form);
-            const formType = form.id.split('-')[0]; // vmess, vless, trojan, or ss
+            const formType = form.id.split('-')[0]; // vless, vmess, trojan, or ss
             
             // Get custom bug and wildcard values
             const customBug = formData.get('bug') ? formData.get('bug').toString().trim() : '';
