@@ -1856,7 +1856,7 @@ function renderProxyList() {
 
 // Function to check proxy status in the list
 function checkProxyStatusInList(proxy, statusBadge) {
-    const statusURL = `https://apicek.t-me-inconigto.workers.dev/proxy?ip=${proxy.ip}&port=${proxy.port}`;
+    const statusURL = `https://id1.foolvpn.me/api/v1/check?ip=${proxy.ip}&port=${proxy.port}`;
     
     fetch(statusURL)
         .then(response => response.json())
